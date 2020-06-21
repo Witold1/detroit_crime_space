@@ -12,4 +12,5 @@ app.spec
 .ipynb_checkpoints
 .idea
 .idlerc
+data/
 !README.md
