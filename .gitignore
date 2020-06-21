@@ -13,4 +13,5 @@ app.spec
 .idea
 .idlerc
 data/*
+*/credentials.txt
 !README.md
