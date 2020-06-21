@@ -1,0 +1,15 @@
+__pycache__
+build
+dist
+app.spec
+.mypy_cache
+*.egg-info
+*.log
+*.cache
+*.pyc
+.python-version
+.vscode
+.ipynb_checkpoints
+.idea
+.idlerc
+!README.md
