@@ -3,11 +3,9 @@ import pymongo
 pymongo.version
 
 import pandas as pd
-import logging
-LOG_FILENAME = 'db_logs.log'
-logging.basicConfig(filename=LOG_FILENAME, level=logging.DEBUG, 
-                    format="%(asctime)s %(levelname)s: %(message)s", datefmt='%m-%d-%Y %I:%M:%S %z')
-logger = logging.getLogger()
+
+from .logger import prepare_logger
+logger = prepare_logger()
 
 def read_credentials(file_path : str = './data/credentials.txt') -> str:
     '''
@@ -90,4 +88,4 @@ def get_items(collection : pymongo.collection.Collection):
     db_cursor = collection.find({})
     for item in db_cursor:
         print(item)
-    logger.info(f'Base got.')
+    logger.info(f'Database got. {collection.database.name}/{collection.name}')
