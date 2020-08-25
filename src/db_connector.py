@@ -87,5 +87,5 @@ def get_items(collection : pymongo.collection.Collection):
     '''
     db_cursor = collection.find({})
     for item in db_cursor:
-        print(item)
+        yield item
     logger.info(f'Database got. {collection.database.name}/{collection.name}')
