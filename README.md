@@ -3,6 +3,7 @@
 
 ## What it does
 It visualizes, analyzes, and 'predicts' the crimes and offenses reports (data provided by participated police departments) published from Police Data Initiative.
+
 <table>
 <thead>
   <tr>
@@ -13,10 +14,10 @@ It visualizes, analyzes, and 'predicts' the crimes and offenses reports (data pr
 <tbody>
   <tr>
     <td>
-      <img src="https://imgur.com/s97Rle2" align="center" alt="Crimes by category per year, dashboard example" width="80%">
+      <img src="https://i.imgur.com/s97Rle2.png" align="center" alt="Crimes by category per year, dashboard example" width="80%">
     </td>
     <td>
-      <img src="https://imgur.com/f78bqAq" align="center" alt="Exampled map of the City" width="80%">
+      <img src="https://i.imgur.com/f78bqAq.png" align="center" alt="Exampled map of the City" width="80%">
     </td>
   </tr>
 </tbody>
