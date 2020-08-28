@@ -9,17 +9,21 @@ Generally speaking, it visualizes, analyzes, and 'predicts' the crimes and offen
 <table>
 <thead>
   <tr>
-    <th>Crimes by category per year, layered dashboard</th>
-    <th>Exampled map of the City, interactive map</th>
+    <th>Offenses and crimes, overall per category</th>
+	<th>Exampled map of the сity</th>
+    <th>Offenses and crimes by category per year, dashboard</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td>
-      <img src="https://i.imgur.com/s97Rle2.png" align="center" alt="Crimes by category per year, dashboard example" width="80%">
+	<td>
+      <img src="https://i.imgur.com/Z3EQ9cs.png" align="center" alt="Offenses and crimes, overall per category" width="80%">
     </td>
     <td>
       <img src="https://i.imgur.com/f78bqAq.png" align="center" alt="Exampled map of the City" width="80%">
+    </td>
+    <td>
+      <img src="https://i.imgur.com/s97Rle2.png" align="center" alt="Crimes by category per year, dashboard example" width="80%">
     </td>
   </tr>
 </tbody>
