@@ -1,19 +1,25 @@
-# DetroitCrime.space | calvinhacks2020
-> Visualise police crime reports. Enforce "Police Data Initiative".
+# DetroitCrime.space | started at calvinhacks2020, Grand Rapids, MI
+> Visualise police crime reports data. Enforce ["Police Data Initiative"](https://www.policedatainitiative.org/participating-agencies/)
 
 ## What it does
-It visualizes, analyzes and 'predicts' the crime reports (data provided by participated police departments) published from Police Data Initiative.
-
+It visualizes, analyzes, and 'predicts' the crimes and offenses reports (data provided by participated police departments) published from Police Data Initiative.
 <table>
+<thead>
   <tr>
-    <td> <i>Offenses against society</i> </td>
-    <td> <i>Overall</i> </td>
+    <th>Crimes by category per year, dashboard</th>
+    <th>Exampled map of the City</th>
   </tr>
+</thead>
+<tbody>
   <tr>
-    <td><img src="https://i.imgur.com/xXb3CyG.png" align="center" alt="Crimes against society at Detroit, draft" width="80%">
+    <td>
+      <img src="https://imgur.com/s97Rle2" align="center" alt="Crimes by category per year, dashboard example" width="80%">
     </td>
-    <td><img src="https://i.imgur.com/5tt9afQ.png" align="center" alt="Crimes against society at Detroit, draft" width="80%"></td>
+    <td>
+      <img src="https://imgur.com/f78bqAq" align="center" alt="Exampled map of the City" width="80%">
+    </td>
   </tr>
+</tbody>
 </table>
 
 ## How I built it
