@@ -2,7 +2,7 @@
 > Visualise police crime reports data. Enforce ["Police Data Initiative"](https://www.policedatainitiative.org/participating-agencies/)
 
 ## Examples of analysis outputs
-Example of a preliminary report was made are available via htmlpreview [here](https://htmlpreview.github.io/?https://github.com/Witold1/DetroitCrime.space/blob/master/reports/visualizations_prereport.html)
+Example of a preliminary report was made are available via htmlpreview [here](https://htmlpreview.github.io/?https://github.com/Witold1/DetroitCrime.space/blob/master/reports/visualizations_prereport.html).
 
 Generally speaking, it visualizes, analyzes, and 'predicts' the crimes and offenses reports (data provided by participated police departments) published from Police Data Initiative.
 
