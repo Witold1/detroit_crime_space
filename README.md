@@ -1,8 +1,6 @@
 # DetroitCrime.space | started at calvinhacks2020, Grand Rapids, MI
 > Visualise police crime reports data. Enforce ["Police Data Initiative"](https://www.policedatainitiative.org/participating-agencies/)
 
-<img src="https://gallery.yopriceville.com/var/resizes/Free-Clipart-Pictures/Police-PNG/Police_Line_Transparent_PNG_Clip_Art_Image.png?m=1527240027" alt="Police line image" height="50%" width="100%">
-
 ## Examples of analysis outputs
 It visualizes, analyzes, and 'predicts' the crimes and offenses reports (data provided by participated police departments) published from Police Data Initiative.
 
@@ -35,3 +33,5 @@ The final steps was insights mining, trends analysis, and static and dynamic vis
 ## How to use it?
 * Functions are documented with .ipynb examples of use; pipeline are drawn
 * Insights are reproducible and might be checked in notebooks
+
+<img src="https://gallery.yopriceville.com/var/resizes/Free-Clipart-Pictures/Police-PNG/Police_Line_Transparent_PNG_Clip_Art_Image.png?m=1527240027" alt="Police line image" height="50%" width="100%">
