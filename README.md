@@ -1,28 +1,37 @@
-# DetroitCrime.space | calvinhacks2020
-> Visualise police crime reports. Enforce "Police Data Initiative".
+# DetroitCrime.space | started at calvinhacks2020, Grand Rapids, MI
+> Visualise police crime reports data. Enforce ["Police Data Initiative"](https://www.policedatainitiative.org/participating-agencies/)
 
-## What it does
-It visualizes, analyzes and 'predicts' the crime reports (data provided by participated police departments) published from Police Data Initiative.
+## Examples of analysis outputs
+It visualizes, analyzes, and 'predicts' the crimes and offenses reports (data provided by participated police departments) published from Police Data Initiative.
 
 <table>
+<thead>
   <tr>
-    <td> <i>Offenses against society</i> </td>
-    <td> <i>Overall</i> </td>
+    <th>Crimes by category per year, layered dashboard</th>
+    <th>Exampled map of the City, interactive map</th>
   </tr>
+</thead>
+<tbody>
   <tr>
-    <td><img src="https://i.imgur.com/xXb3CyG.png" align="center" alt="Crimes against society at Detroit, draft" width="80%">
+    <td>
+      <img src="https://i.imgur.com/s97Rle2.png" align="center" alt="Crimes by category per year, dashboard example" width="80%">
     </td>
-    <td><img src="https://i.imgur.com/5tt9afQ.png" align="center" alt="Crimes against society at Detroit, draft" width="80%"></td>
+    <td>
+      <img src="https://i.imgur.com/f78bqAq.png" align="center" alt="Exampled map of the City" width="80%">
+    </td>
   </tr>
+</tbody>
 </table>
 
-## How I built it
-I did find and use the crimes report dataset for the largest Michigan city. Then download it and push the raw data to MongoDB Atlas cloud database. Then made a connection with a database to process data with python scripts and saved it locally because of the resources optimization. At this step I also used geocoding, to encode some needed string addresses to geo-features (Latitude and Longitude pairs). And the final step was the insights selection, trends analysis, and static and dynamic visualization via python frameworks and webGL (probably, one of the best and stable solution to such large geospatial dataset).
+## How is it built?
+I did find and used publically open criminal offenses and crimes report datasets from the largest Michigan city. Downloaded it, preprocessed, and pushed to MongoDB Atlas cloud database to make it analysis-ready from everywhere.   
+
+The final steps was insights mining, trends analysis, and static and dynamic visualization via a rich python ecosystem. I used classical and contemporary libs for geo-spatial visualization as well as packages for the table and gridded data processing. Then, as a usual part of the data related analysis loop, the report was prepared and beautified, and next steps were marked.
+
+<img src="https://i.imgur.com/HD8ek3s.png" alt="Pipeline, a bit obsolete version" height="40%" width="70%">
 
 ## How to use it?
-* Link [nbviewer](https://nbviewer.jupyter.org/github/Witold1/calvinhacks2020/blob/master/preprocessing_and_visualizations.ipynb#PRESENTATION) and [html](.) to current version of processing and visualisation Jupyter notebook. 
-* [Link to kepler.gl](https://kepler.gl/demo/map?mapUrl=https://dl.dropboxusercontent.com/s/u0aqfbui3muxmoq/keplergl_2ndwn6n.json). Issues with opening might occur because of a 3D-engine's resource consumption.
+* Functions are documented with .ipynb examples of use; pipeline are drawn
+* Insights are reproducible and might be checked in notebooks
 
-<p align="center">
-  <img src="https://i.imgur.com/GNEk3Ob.jpg" align="center" alt="The first slice of a timeline" width="90%" height="70%">
-</p>
+<img src="https://gallery.yopriceville.com/var/resizes/Free-Clipart-Pictures/Police-PNG/Police_Line_Transparent_PNG_Clip_Art_Image.png?m=1527240027" alt="Police line image" height="50%" width="100%">
