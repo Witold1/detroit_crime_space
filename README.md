@@ -9,7 +9,7 @@ Generally speaking, it visualizes, analyzes, and 'predicts' the crimes and offen
 | Per neighborhood, from 2016                                                                                          | Per hour, from 2016                                                                                           |
 |----------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | <img src="https://i.imgur.com/RkqZDxX.png" align="center" alt="Per Motor City neighborbood, from 2016" width="100%"> | <img src="https://i.imgur.com/CPMqiAO.png" align="center" alt="Per hour, overall for time" width="100%">      |
-| By offence category, per year (layered dashborad)                                                                                        | Top-15 offence categories, from 2016                                                                          |
+| By offence category, per year (layered dashboard)                                                                                        | Top-15 offence categories, from 2016                                                                          |
 | <img src="https://i.imgur.com/09fsVdq.png" align="center" alt="Top-5 offence categories, per year" width="100%">     | <img src="https://i.imgur.com/ksYk0wF.png" align="center" alt="Per offence category, from 2016" width="100%"> |
 
 ## How is it built?
@@ -17,10 +17,15 @@ I did find and used publically open criminal offenses and crimes report datasets
 
 The final steps was insights mining, trends analysis, and static and dynamic visualization via a rich python ecosystem. I used classical and contemporary libs for geo-spatial visualization as well as packages for the table and gridded data processing. Then, as a usual part of the data related analysis loop, the report was prepared and beautified, and next steps were marked.
 
-<img src="https://i.imgur.com/HD8ek3s.png" alt="Pipeline, a bit obsolete version" height="40%" width="70%">
+| Architecture and processing pipeline image:                                                                                               |
+|-------------------------------------------------------------------------------------------------------------|
+| <img src="https://i.imgur.com/HD8ek3s.png" alt="Pipeline, a bit obsolete version" height="70%" width="70%"> |
+
+* Plus, Datashader & Holoviews (inc. matplotlib backend)
+
 
 ## How to use it?
-* Functions are documented with .ipynb examples of use; pipeline are drawn
+* Functions are documented with .ipynb examples of use; pipeline are demonstrated
 * Insights are reproducible and might be checked in notebooks
 
 ## How to improve it?
