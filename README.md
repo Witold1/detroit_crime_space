@@ -2,32 +2,15 @@
 > Visualise police crime reports data. Enforce ["Police Data Initiative"](https://www.policedatainitiative.org/participating-agencies/)
 
 ## Examples of analysis outputs
-Example of a preliminary report was made are available via htmlpreview [here](https://htmlpreview.github.io/?https://github.com/Witold1/DetroitCrime.space/blob/master/reports/visualizations_prereport.html).
+An example of a preliminary report was made are available via htmlpreview [here](https://htmlpreview.github.io/?https://github.com/Witold1/DetroitCrime.space/blob/master/reports/visualizations_prereport.html).
 
 Generally speaking, it visualizes, analyzes, and 'predicts' the crimes and offenses reports (data provided by participated police departments) published from Police Data Initiative.
 
-<table>
-<thead>
-  <tr>
-    <th>Offenses and crimes, overall per category</th>
-	<th>Exampled map of the сity</th>
-    <th>Offenses and crimes by category per year, dashboard</th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-	<td>
-      <img src="https://i.imgur.com/Z3EQ9cs.png" align="center" alt="Offenses and crimes, overall per category" width="80%">
-    </td>
-    <td>
-      <img src="https://i.imgur.com/f78bqAq.png" align="center" alt="Exampled map of the City" width="80%">
-    </td>
-    <td>
-      <img src="https://i.imgur.com/s97Rle2.png" align="center" alt="Crimes by category per year, dashboard example" width="80%">
-    </td>
-  </tr>
-</tbody>
-</table>
+| Per neighborhood, from 2016                                                                                          | Per hour, from 2016                                                                                           |
+|----------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
+| <img src="https://i.imgur.com/RkqZDxX.png" align="center" alt="Per Motor City neighborbood, from 2016" width="100%"> | <img src="https://i.imgur.com/CPMqiAO.png" align="center" alt="Per hour, overall for time" width="100%">      |
+| By offence category, per year (layered dashborad)                                                                                        | Top-15 offence categories, from 2016                                                                          |
+| <img src="https://i.imgur.com/09fsVdq.png" align="center" alt="Top-5 offence categories, per year" width="100%">     | <img src="https://i.imgur.com/ksYk0wF.png" align="center" alt="Per offence category, from 2016" width="100%"> |
 
 ## How is it built?
 I did find and used publically open criminal offenses and crimes report datasets from the largest Michigan city. Downloaded it, preprocessed, and pushed to MongoDB Atlas cloud database to make it analysis-ready from everywhere.   
@@ -39,5 +22,10 @@ The final steps was insights mining, trends analysis, and static and dynamic vis
 ## How to use it?
 * Functions are documented with .ipynb examples of use; pipeline are drawn
 * Insights are reproducible and might be checked in notebooks
+
+## How to improve it?
+* **More advanced methods** of criminal-related analysis and statistics may and must be used, as well as **better visualization** must be produced; **clustering techniques** might be useful for better insight;
+* Professional GIS software domain tools may and must be better analyzed;
+* Example of cool products : [old competition](https://www.kaggle.com/c/sf-crime/notebooks), existed web-interfaces [\[1\]](https://cityofdetroit.github.io/crime-viewer/), [\[2\]](http://people.ischool.berkeley.edu/~john.blakkan/ischool_version/index.html), [\[3\]](https://chicagocrimescenes.blogspot.com/) or [PredPol](https://www.predpol.com/)
 
 <img src="https://gallery.yopriceville.com/var/resizes/Free-Clipart-Pictures/Police-PNG/Police_Line_Transparent_PNG_Clip_Art_Image.png?m=1527240027" alt="Police line image" height="50%" width="100%">
