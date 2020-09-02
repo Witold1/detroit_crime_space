@@ -17,9 +17,18 @@ I did find and used publically open criminal offenses and crimes report datasets
 
 The final steps was insights mining, trends analysis, and static and dynamic visualization via a rich python ecosystem. I used classical and contemporary libs for geo-spatial visualization as well as packages for the table and gridded data processing. Then, as a usual part of the data related analysis loop, the report was prepared and beautified, and next steps were marked.
 
-| Architecture and processing pipeline image:                                                                                               |
-|-------------------------------------------------------------------------------------------------------------|
-| <img src="https://i.imgur.com/HD8ek3s.png" alt="Pipeline, a bit obsolete version" height="45%" width="45%"> |
+<table>
+<thead>
+  <tr>
+    <th>Architecture and processing pipeline image:</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td><img src="https://i.imgur.com/HD8ek3s.png" alt="Pipeline, a bit obsolete version" height="45%" width="75%"></td>
+  </tr>
+</tbody>
+</table>
 
 * Plus, Datashader & Holoviews (inc. matplotlib backend)
 
