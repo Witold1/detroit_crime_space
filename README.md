@@ -25,7 +25,7 @@ The final steps was insights mining, trends analysis, and static and dynamic vis
 </thead>
 <tbody>
   <tr>
-    <td><img src="https://i.imgur.com/HD8ek3s.png" alt="Pipeline, a bit obsolete version" height="45%" width="75%"></td>
+    <td><img src="https://i.imgur.com/HD8ek3s.png" alt="Pipeline, a bit obsolete version" height="50%" width="100%"></td>
   </tr>
 </tbody>
 </table>
