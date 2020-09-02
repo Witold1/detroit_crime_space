@@ -19,7 +19,7 @@ The final steps was insights mining, trends analysis, and static and dynamic vis
 
 | Architecture and processing pipeline image:                                                                                               |
 |-------------------------------------------------------------------------------------------------------------|
-| <img src="https://i.imgur.com/HD8ek3s.png" alt="Pipeline, a bit obsolete version" height="70%" width="70%"> |
+| <img src="https://i.imgur.com/HD8ek3s.png" alt="Pipeline, a bit obsolete version" height="45%" width="45%"> |
 
 * Plus, Datashader & Holoviews (inc. matplotlib backend)
 
