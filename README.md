@@ -38,7 +38,8 @@ The final steps was insights mining, trends analysis, and static and dynamic vis
 * Insights are reproducible and might be checked in notebooks
 
 ## How to improve it?
-* **More advanced methods** of criminal-related analysis and statistics may and must be used, as well as **better visualization** must be produced; **clustering techniques** might be useful for better insight;
+* **More advanced methods** of criminal-related analysis and statistics (e.g. methods from directional statistics and spatial statistics) may and must be used, as well as **better visualization** must be produced; **clustering techniques** might be useful for better insight;
+* Insights and stat.analisys are better when using counted relative numbers (per $1000$, per $10.000$), so the population of districts and neighborhoods are crucial to be added
 * Professional GIS software domain tools may and must be better analyzed;
 * Example of cool products : [old competition](https://www.kaggle.com/c/sf-crime/notebooks), existed web-interfaces [\[1\]](https://cityofdetroit.github.io/crime-viewer/), [\[2\]](http://people.ischool.berkeley.edu/~john.blakkan/ischool_version/index.html), [\[3\]](https://chicagocrimescenes.blogspot.com/) or [PredPol](https://www.predpol.com/)
 
